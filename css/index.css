@@ -1,0 +1,27 @@
+.flexing {
+  display: flex;
+}
+.flexCenterTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  width: 100%;
+}
+.title nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.title nav a {
+  color: #af3535;
+  padding: 12px 8px;
+}
+.title nav a:hover {
+  color: lighter(#af3535, 50%);
+}
+.title .main-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

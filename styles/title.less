@@ -1,0 +1,42 @@
+
+
+//////////////////////////////The title main info for the main webpage////////////////////////
+
+
+
+
+///Variables
+@mainTextColor :rgb(175, 53, 53); 
+
+
+//mixins
+
+.flexing{
+    display: flex;
+}
+.flexCenterTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+
+    width: 100%;
+    nav{
+        .flexing();
+        justify-content: flex-end;
+
+        a {
+            color: @mainTextColor;
+            padding: 12px 8px;
+            &:hover{
+                color: lighter(@mainTextColor, 50%);
+            }
+        }
+    }
+
+    .main-title{
+        .flexCenterTop();
+    }
+}
